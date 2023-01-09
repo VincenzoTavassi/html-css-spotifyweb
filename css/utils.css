@@ -10,3 +10,12 @@
 	clear: both;
 	display: table;
 }
+
+.btn {
+	background-color: transparent;
+	border: 1px solid currentColor;
+	color: white;
+	padding: 10px 20px;
+	display: inline-block;
+	border-radius: 20px;
+}

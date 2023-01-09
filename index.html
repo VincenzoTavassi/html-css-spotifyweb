@@ -5,7 +5,12 @@
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Document</title>
+	<title>Spotify Web App</title>
+	<!-- Font Awesome -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+		integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+		crossorigin="anonymous" referrerpolicy="no-referrer" />
+
 	<link rel="stylesheet" href="./css/12bool.css">
 	<link rel="stylesheet" href="./css/reset.css">
 	<link rel="stylesheet" href="./css/utils.css">
@@ -13,13 +18,186 @@
 </head>
 
 <body>
-	<div class="top-content">
-		<div class="row">
-			<nav class="sidebar">Sidebar</nav>
-			<div class="content">
-				<header>Header</header>
-				<main>Main</main>
+	<div class="top-content d-flex">
+		<nav class="sidebar">Sidebar
+			<a id="logo" href="#"><img src="./img/logo.svg" alt="" srcset=""></a>
+			<ul class="main-links">
+				<li>
+					<a href="#"><i class="fa-solid fa-house"></i><span>Home</span></a>
+				</li>
+				<li>
+					<a href="#"><i class="fa-solid fa-house"></i><span>Cerca</span></a>
+				</li>
+				<li>
+					<a href="#"><i class="fa-solid fa-house"></i><span>La Tua Libreria</span></a>
+				</li>
+			</ul>
+			<div class="playlist">
+				<h2>Playlist</h2>
+				<ul class="playlist-links">
+					<li><a href="#"><span id="add-playlist">+</span><span>Crea Playlist</span></a></li>
+					<li><a href="#">
+							PlayList 1
+						</a></li>
+					<li><a href="#">
+							PlayList 2
+						</a></li>
+					<li><a href="#">
+							PlayList 3
+						</a></li>
+					<li><a href="#">
+							PlayList 4
+						</a></li>
+					<li><a href="#">
+							PlayList 5
+						</a></li>
+					<li><a href="#">
+							PlayList 6
+						</a></li>
+					<li><a href="#">
+							PlayList 7
+						</a></li>
+				</ul>
 			</div>
+			<div class="profile">
+				<i class="fa-solid fa-house"></i><span>Installa App</span>
+				<hr>
+				<i class="fa-solid fa-house"></i><span>John Doe</span>
+			</div>
+		</nav>
+		<div class="content">
+			<header>
+				<div class="btn">EFFETTUA L'UPGRADE</div>
+			</header>
+			<main>Main Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos officia totam quam odio
+				maxime vel similique pariatur facilis, amet animi quia, ea enim odit architecto magnam quis eum
+				consequatur impedit atque. Iure excepturi omnis, labore vel possimus blanditiis architecto nihil eius
+				tempora, eos aspernatur itaque sunt aliquam expedita voluptatum quaerat repellat natus corporis autem
+				reprehenderit dolores impedit minus velit molestias. Et quaerat expedita quae est eligendi maxime rerum,
+				voluptatum totam sequi amet qui cumque laudantium aliquam officia nam temporibus neque! Excepturi,
+				fugit. Eligendi accusamus nihil, perferendis sunt repellendus officiis, voluptates unde, corrupti ullam
+				ab temporibus nemo quidem quis explicabo quisquam?
+				Main Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos officia totam quam odio
+				maxime vel similique pariatur facilis, amet animi quia, ea enim odit architecto magnam quis eum
+				consequatur impedit atque. Iure excepturi omnis, labore vel possimus blanditiis architecto nihil eius
+				tempora, eos aspernatur itaque sunt aliquam expedita voluptatum quaerat repellat natus corporis autem
+				reprehenderit dolores impedit minus velit molestias. Et quaerat expedita quae est eligendi maxime rerum,
+				voluptatum totam sequi amet qui cumque laudantium aliquam officia nam temporibus neque! Excepturi,
+				fugit. Eligendi accusamus nihil, perferendis sunt repellendus officiis, voluptates unde, corrupti ullam
+				ab temporibus nemo quidem quis explicabo quisquam?
+				Main Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos officia totam quam odio
+				maxime vel similique pariatur facilis, amet animi quia, ea enim odit architecto magnam quis eum
+				consequatur impedit atque. Iure excepturi omnis, labore vel possimus blanditiis architecto nihil eius
+				tempora, eos aspernatur itaque sunt aliquam expedita voluptatum quaerat repellat natus corporis autem
+				reprehenderit dolores impedit minus velit molestias. Et quaerat expedita quae est eligendi maxime rerum,
+				voluptatum totam sequi amet qui cumque laudantium aliquam officia nam temporibus neque! Excepturi,
+				fugit. Eligendi accusamus nihil, perferendis sunt repellendus officiis, voluptates unde, corrupti ullam
+				ab temporibus nemo quidem quis explicabo quisquam?
+				Main Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos officia totam quam odio
+				maxime vel similique pariatur facilis, amet animi quia, ea enim odit architecto magnam quis eum
+				consequatur impedit atque. Iure excepturi omnis, labore vel possimus blanditiis architecto nihil eius
+				tempora, eos aspernatur itaque sunt aliquam expedita voluptatum quaerat repellat natus corporis autem
+				reprehenderit dolores impedit minus velit molestias. Et quaerat expedita quae est eligendi maxime rerum,
+				voluptatum totam sequi amet qui cumque laudantium aliquam officia nam temporibus neque! Excepturi,
+				fugit. Eligendi accusamus nihil, perferendis sunt repellendus officiis, voluptates unde, corrupti ullam
+				ab temporibus nemo quidem quis explicabo quisquam?
+				Main Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos officia totam quam odio
+				maxime vel similique pariatur facilis, amet animi quia, ea enim odit architecto magnam quis eum
+				consequatur impedit atque. Iure excepturi omnis, labore vel possimus blanditiis architecto nihil eius
+				tempora, eos aspernatur itaque sunt aliquam expedita voluptatum quaerat repellat natus corporis autem
+				reprehenderit dolores impedit minus velit molestias. Et quaerat expedita quae est eligendi maxime rerum,
+				voluptatum totam sequi amet qui cumque laudantium aliquam officia nam temporibus neque! Excepturi,
+				fugit. Eligendi accusamus nihil, perferendis sunt repellendus officiis, voluptates unde, corrupti ullam
+				ab temporibus nemo quidem quis explicabo quisquam?
+				voluptatum totam sequi amet qui cumque laudantium aliquam officia nam temporibus neque! Excepturi,
+				fugit. Eligendi accusamus nihil, perferendis sunt repellendus officiis, voluptates unde, corrupti ullam
+				ab temporibus nemo quidem quis explicabo quisquam?
+				Main Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos officia totam quam odio
+				maxime vel similique pariatur facilis, amet animi quia, ea enim odit architecto magnam quis eum
+				consequatur impedit atque. Iure excepturi omnis, labore vel possimus blanditiis architecto nihil eius
+				tempora, eos aspernatur itaque sunt aliquam expedita voluptatum quaerat repellat natus corporis autem
+				reprehenderit dolores impedit minus velit molestias. Et quaerat expedita quae est eligendi maxime rerum,
+				voluptatum totam sequi amet qui cumque laudantium aliquam officia nam temporibus neque! Excepturi,
+				fugit. Eligendi accusamus nihil, perferendis sunt repellendus officiis, voluptates unde, corrupti ullam
+				ab temporibus nemo quidem quis explicabo quisquam?
+
+				voluptatum totam sequi amet qui cumque laudantium aliquam officia nam temporibus neque! Excepturi,
+				fugit. Eligendi accusamus nihil, perferendis sunt repellendus officiis, voluptates unde, corrupti ullam
+				ab temporibus nemo quidem quis explicabo quisquam?
+				Main Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos officia totam quam odio
+				maxime vel similique pariatur facilis, amet animi quia, ea enim odit architecto magnam quis eum
+				consequatur impedit atque. Iure excepturi omnis, labore vel possimus blanditiis architecto nihil eius
+				tempora, eos aspernatur itaque sunt aliquam expedita voluptatum quaerat repellat natus corporis autem
+				reprehenderit dolores impedit minus velit molestias. Et quaerat expedita quae est eligendi maxime rerum,
+				voluptatum totam sequi amet qui cumque laudantium aliquam officia nam temporibus neque! Excepturi,
+				fugit. Eligendi accusamus nihil, perferendis sunt repellendus officiis, voluptates unde, corrupti ullam
+				ab temporibus nemo quidem quis explicabo quisquam?
+				voluptatum totam sequi amet qui cumque laudantium aliquam officia nam temporibus neque! Excepturi,
+				fugit. Eligendi accusamus nihil, perferendis sunt repellendus officiis, voluptates unde, corrupti ullam
+				ab temporibus nemo quidem quis explicabo quisquam?
+				Main Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos officia totam quam odio
+				maxime vel similique pariatur facilis, amet animi quia, ea enim odit architecto magnam quis eum
+				consequatur impedit atque. Iure excepturi omnis, labore vel possimus blanditiis architecto nihil eius
+				tempora, eos aspernatur itaque sunt aliquam expedita voluptatum quaerat repellat natus corporis autem
+				reprehenderit dolores impedit minus velit molestias. Et quaerat expedita quae est eligendi maxime rerum,
+				voluptatum totam sequi amet qui cumque laudantium aliquam officia nam temporibus neque! Excepturi,
+				fugit. Eligendi accusamus nihil, perferendis sunt repellendus officiis, voluptates unde, corrupti ullam
+				ab temporibus nemo quidem quis explicabo quisquam?
+				voluptatum totam sequi amet qui cumque laudantium aliquam officia nam temporibus neque! Excepturi,
+				fugit. Eligendi accusamus nihil, perferendis sunt repellendus officiis, voluptates unde, corrupti ullam
+				ab temporibus nemo quidem quis explicabo quisquam?
+				Main Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos officia totam quam odio
+				maxime vel similique pariatur facilis, amet animi quia, ea enim odit architecto magnam quis eum
+				consequatur impedit atque. Iure excepturi omnis, labore vel possimus blanditiis architecto nihil eius
+				tempora, eos aspernatur itaque sunt aliquam expedita voluptatum quaerat repellat natus corporis autem
+				reprehenderit dolores impedit minus velit molestias. Et quaerat expedita quae est eligendi maxime rerum,
+				voluptatum totam sequi amet qui cumque laudantium aliquam officia nam temporibus neque! Excepturi,
+				fugit. Eligendi accusamus nihil, perferendis sunt repellendus officiis, voluptates unde, corrupti ullam
+				ab temporibus nemo quidem quis explicabo quisquam?
+				am temporibus neque! Excepturi,
+				fugit. Eligendi accusamus nihil, perferendis sunt repellendus officiis, voluptates unde, corrupti ullam
+				ab temporibus nemo quidem quis explicabo quisquam?
+				voluptatum totam sequi amet qui cumque laudantium aliquam officia nam temporibus neque! Excepturi,
+				fugit. Eligendi accusamus nihil, perferendis sunt repellendus officiis, voluptates unde, corrupti ullam
+				ab temporibus nemo quidem quis explicabo quisquam?
+				Main Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos officia totam quam odio
+				maxime vel similique pariatur facilis, amet animi quia, ea enim odit architecto magnam quis eum
+				consequatur impedit atque. Iure excepturi omnis, labore vel possimus blanditiis architecto nihil eius
+				tempora, eos aspernatur itaque sunt aliquam expedita voluptatum quaerat repellat natus corporis autem
+				reprehenderit dolores impedit minus velit molestias. Et quaerat expedita quae est eligendi maxime rerum,
+				voluptatum totam sequi amet qui cumque laudantium aliquam officia nam temporibus neque! Excepturi,
+				fugit. Eligendi accusamus nihil, perferendis sunt repellendus officiis, voluptates unde, corrupti ullam
+				ab temporibus nemo quidem quis explicabo quisquam?
+				am temporibus neque! Excepturi,
+				fugit. Eligendi accusamus nihil, perferendis sunt repellendus officiis, voluptates unde, corrupti ullam
+				ab temporibus nemo quidem quis explicabo quisquam?
+				voluptatum totam sequi amet qui cumque laudantium aliquam officia nam temporibus neque! Excepturi,
+				fugit. Eligendi accusamus nihil, perferendis sunt repellendus officiis, voluptates unde, corrupti ullam
+				ab temporibus nemo quidem quis explicabo quisquam?
+				Main Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos officia totam quam odio
+				maxime vel similique pariatur facilis, amet animi quia, ea enim odit architecto magnam quis eum
+				consequatur impedit atque. Iure excepturi omnis, labore vel possimus blanditiis architecto nihil eius
+				tempora, eos aspernatur itaque sunt aliquam expedita voluptatum quaerat repellat natus corporis autem
+				reprehenderit dolores impedit minus velit molestias. Et quaerat expedita quae est eligendi maxime rerum,
+				voluptatum totam sequi amet qui cumque laudantium aliquam officia nam temporibus neque! Excepturi,
+				fugit. Eligendi accusamus nihil, perferendis sunt repellendus officiis, voluptates unde, corrupti ullam
+				ab temporibus nemo quidem quis explicabo quisquam?
+				am temporibus neque! Excepturi,
+				fugit. Eligendi accusamus nihil, perferendis sunt repellendus officiis, voluptates unde, corrupti ullam
+				ab temporibus nemo quidem quis explicabo quisquam?
+				voluptatum totam sequi amet qui cumque laudantium aliquam officia nam temporibus neque! Excepturi,
+				fugit. Eligendi accusamus nihil, perferendis sunt repellendus officiis, voluptates unde, corrupti ullam
+				ab temporibus nemo quidem quis explicabo quisquam?
+				Main Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos officia totam quam odio
+				maxime vel similique pariatur facilis, amet animi quia, ea enim odit architecto magnam quis eum
+				consequatur impedit atque. Iure excepturi omnis, labore vel possimus blanditiis architecto nihil eius
+				tempora, eos aspernatur itaque sunt aliquam expedita voluptatum quaerat repellat natus corporis autem
+				reprehenderit dolores impedit minus velit molestias. Et quaerat expedita quae est eligendi maxime rerum,
+				voluptatum totam sequi amet qui cumque laudantium aliquam officia nam temporibus neque! Excepturi,
+				fugit. Eligendi accusamus nihil, perferendis sunt repellendus officiis, voluptates unde, corrupti ullam
+				ab temporibus nemo quidem quis explicabo quisquam?
+
+			</main>
 		</div>
 	</div>
 	<footer>Footer</footer>
