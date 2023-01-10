@@ -71,11 +71,15 @@ main {
 
 .card {
     /* height: 250px; */
-    width: 250px;
+    /* width: 250px; */
     /* background-color: brown; */
     border: 1px solid black;
     padding: 10px;
     text-align: center;
+}
+
+.card.round img {
+    border-radius: 50%;
 }
 
 /* FOOTER  */
