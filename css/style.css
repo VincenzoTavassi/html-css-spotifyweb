@@ -62,11 +62,11 @@ nav.sidebar {
 
 
 .main-links li:first-child {
-    border-left: 5px solid hsl(84deg 100% 59%);
+    border-left: 3px solid hsl(84deg 100% 59%);
 }
 
 .main-links li:first-child a {
-    margin-left: -5px;
+    margin-left: -3px;
 }
 
 .main-links li:first-child span {
@@ -157,6 +157,17 @@ header {
 #header-nav>ul>li {
     display: inline-block;
     margin: 10px 20px;
+    position: relative;
+}
+
+#green-bar {
+    height: 3px;
+    width: 50%;
+    background-color: hsl(84deg 100% 59%);
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -100%);
 }
 
 /* MAIN  */
@@ -165,8 +176,6 @@ main {
     height: 100%;
     padding-top: 100px;
     overflow: auto;
-
-    /* debug  */
     background-color: hsl(219deg 26% 11%);
 }
 
@@ -192,10 +201,91 @@ footer {
     background-color: hsl(0deg 0% 16%);
 }
 
-.brano-attuale,
-.barra-stato,
+footer h3 {
+    font-size: 1rem;
+}
+
+footer span {
+    margin-top: 0;
+}
+
+.brano-attuale {
+    display: flex;
+    align-items: center;
+    width: 15%;
+    justify-content: space-between;
+}
+
+.brano-attuale img {
+    width: 60px;
+    margin: 10px 20px;
+}
+
+.info-brano {
+    align-items: center;
+}
+
+.titolo-brano span {
+    margin-bottom: 0;
+}
+
+.icone-brano i {
+    margin: 0 10px;
+    font-size: 1.2rem;
+}
+
+.player {
+
+    width: 70%;
+}
+
+.controlli {
+    color: white;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.controlli i {
+    margin: 0 15px;
+}
+
+.controlli i:nth-child(3) {
+    font-size: 2.5rem;
+    margin: 0 25px;
+}
+
+.progresso {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.progresso span {
+    margin: 0 50px;
+    color: white;
+}
+
+.progress-bar {
+    height: 4px;
+    background-color: gray;
+    width: 30%;
+}
+
+.full.progress-bar {
+    width: 10%;
+    background-color: white;
+}
+
 .opzioni {
-    height: 80%;
-    width: 200px;
-    background-color: #333;
+    width: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.opzioni i {
+    margin: 0 10px;
+    color: white;
 }
