@@ -117,6 +117,10 @@ a:hover #add-playlist {
     padding: 20px 100px 20px 20px;
 }
 
+#logo-small {
+    display: none;
+}
+
 .profile {
     margin-top: auto;
 }
@@ -305,6 +309,7 @@ footer a:hover {
 .full.progress-bar {
     width: 10%;
     background-color: white;
+    position: relative;
 }
 
 .progresso:hover {
@@ -314,6 +319,18 @@ footer a:hover {
 .progresso:hover .full.progress-bar {
     background-color: hsl(84deg 100% 59%);
     cursor: pointer;
+}
+
+.progresso:hover .full.progress-bar::after,
+.opzioni:hover .full.full.progress-bar::after {
+    content: '';
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background-color: white;
+    top: -6px;
+    left: 100%;
 }
 
 .opzioni {
@@ -354,6 +371,15 @@ RESPONSIVE
     nav.sidebar {
         min-width: 0;
         max-width: 50px;
+    }
+
+    #logo {
+        display: none;
+    }
+
+    #logo-small {
+        display: block;
+        padding: 10px;
     }
 
     .playlist {
