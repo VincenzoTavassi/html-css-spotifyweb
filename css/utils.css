@@ -19,3 +19,7 @@
 	display: inline-block;
 	border-radius: 50px;
 }
+
+.btn:hover {
+	transform: scale(1.1);
+}
