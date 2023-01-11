@@ -5,6 +5,7 @@ body {
     color: hsl(223deg 3% 50%);
 }
 
+
 .top-content {
     height: calc(100vh - 100px);
 }
@@ -556,3 +557,9 @@ RESPONSIVE
         display: none;
     }
 }
+
+/* HORIZONTAL NOWRAP SCROLL BONUS  */
+/* .row {
+    flex-wrap: nowrap;
+    overflow: auto;
+} */
