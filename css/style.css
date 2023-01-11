@@ -324,16 +324,34 @@ footer a:hover {
     color: white;
 }
 
-.progress-bar {
+.musica.progress-bar {
     height: 4px;
     background-color: gray;
-    width: 30%;
+    width: 40%;
 }
 
-.full.progress-bar {
+.musica.full.progress-bar {
     width: 10%;
     background-color: white;
     position: relative;
+}
+
+.volume.progress-bar {
+    height: 4px;
+    background-color: gray;
+    width: 70px;
+}
+
+.volume.full.progress-bar {
+    width: 60%;
+    background-color: white;
+    position: relative;
+}
+
+.volume-controller {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .progresso:hover {
@@ -346,7 +364,7 @@ footer a:hover {
 }
 
 .progresso:hover .full.progress-bar::after,
-.opzioni:hover .full.full.progress-bar::after {
+.opzioni:hover .volume.full.progress-bar::after {
     content: '';
     position: absolute;
     width: 16px;
@@ -363,6 +381,7 @@ footer a:hover {
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 .opzioni:hover {
@@ -527,6 +546,8 @@ RESPONSIVE
 
 }
 
+/* BONUS  */
+
 @media screen and (max-height: 500px) {
 
     /* HEADER  */
@@ -534,3 +555,4 @@ RESPONSIVE
     header {
         display: none;
     }
+}
