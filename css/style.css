@@ -49,6 +49,7 @@ nav.sidebar {
     display: flex;
     flex-direction: column;
     background-color: hsl(0deg 0% 0%);
+    overflow: auto;
 }
 
 .sidebar h3 {
@@ -381,6 +382,46 @@ footer a:hover {
 RESPONSIVE 
 ******************** */
 
+@media screen and (max-width:992px) {
+    /* FOOTER  */
+
+    .brano-attuale {
+        min-width: 200px;
+    }
+
+    .icone-brano {
+        flex-direction: column;
+    }
+
+    footer h3 {
+        font-size: .8rem;
+    }
+
+    .icone-brano i {
+        margin: 0 10px;
+        font-size: 1rem;
+    }
+
+    .controlli {
+        color: white;
+        font-size: 1.2rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .controlli i:nth-child(3) {
+        font-size: 2rem;
+        margin: 0 10px;
+    }
+
+    .titolo-brano span {
+        font-size: .8rem;
+    }
+
+}
+
+
 @media screen and (max-width: 768px) {
 
     /* GENERICS  */
@@ -445,47 +486,51 @@ RESPONSIVE
     header {
         width: calc(100% - 50px);
     }
+
+    /* FOOTER  */
+
+    .progresso span {
+        margin: 0 10px;
+    }
+
+    .controlli i {
+        margin: 0 5px;
+    }
+
+    .opzioni i {
+        margin: 0 5px;
+    }
 }
 
-@media screen and (max-width:992px) {
+@media screen and (max-width: 600px) {
+
     /* FOOTER  */
 
     .brano-attuale {
-        min-width: 200px;
-    }
 
-    .icone-brano {
-        flex-direction: column;
-    }
-
-    footer h3 {
-        font-size: .8rem;
-    }
-
-    .icone-brano i {
+        min-width: 50px;
         margin: 0 10px;
-        font-size: 1rem;
     }
 
-    .controlli {
-        color: white;
-        font-size: 1.2rem;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .controlli i:nth-child(3) {
-        font-size: 2rem;
-        margin: 0 25px;
-    }
-
-    .titolo-brano span {
-        font-size: .8rem;
+    .info-brano img {
+        display: none;
     }
 
     .opzioni {
-        flex-wrap: wrap;
+        min-width: 100px;
+        margin-right: 5px;
+    }
+
+    .opzioni i {
+        margin: 5px 5px;
     }
 
 }
+
+@media screen and (max-height: 500px) {
+
+    /* HEADER  */
+
+    header {
+        display: none;
+    }
